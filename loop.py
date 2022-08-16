@@ -85,6 +85,17 @@ while i<=5:
 
 
 # List comprehension
-# print("\n List comprehension \n")
+# List comprehension offers a shorter syntax when we want to create a new list based on the values of an existing list.
+print("\n List comprehension \n")
 
-# [print(x) for x in thislist]
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+print("\n")
+
+newlist = [x for x in range(10)]
+
+print(newlist)

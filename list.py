@@ -74,3 +74,25 @@ del thislist
 
 #clear() method empties the list
 # tropical.clear()
+
+
+# Copy list
+# list2 = list1 will only be a reference to list1 and changes made in list1 will reflect in list2
+list1 = ["apple", "banana", "cherry"]
+
+# mylist = list1.copy()
+# print(mylist)
+
+list2 = list(list1)
+print(list2)
+
+
+# Join Lists
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+list1.extend(list2)
+print(list1)
